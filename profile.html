@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styletemp.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        main{
+    width:100%;
+    margin:50px auto;
+    display: grid;
+    grid-gap:2px;
+    grid-template-rows: 38px repeat(1,1fr);
+    grid-template-columns: 500px repeat(3,1fr);
+}
+.div1{
+    grid-row:1/-1;
+    grid-column: 1/2;
+    margin: 150px 220px 20px 20px;
+}
+.div5{
+    grid-row:2/-1;
+    grid-column: 2/-1;
+}
+.div2{
+    text-align: center;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.div3{
+    text-align: center;
+    background-color: #D3D3D3;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div4{
+    text-align: center;
+    background-color: #D3D3D3;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#research{
+    display:none ;
+}
+#publication{
+    display:none;
+}
+nav{
+    background-color: gray;
+}
+.nav-links ul li a{
+    color: black;
+}
+    </style>
+    <title>Dr. NDPS</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="images/kgplogo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="publication.html">RESEARCH</a></li>
+                <li><a href="group.html">GROUP</a></li>
+                <li><a href="profile.html">BIOSKETCH</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <main>
+        <div class="div1"><img src="images/sir.JPG" width="340" height="360" alt="" title="" /></div>
+        <div class="div2" onclick="showbio()">Biography</div>
+        <div class="div3" onclick="showresearch()">Research Interest</div>
+        <div class="div4" onclick="showpublication()">Presentation</div>
+        <div class="div5">
+            <div id="bio">
+
+                <p><strong>Education</strong></p>
+                <ul>
+                    <li style="list-style-type: none;">
+                        <ul>
+                            <li>PhD (2001): University of Madras, India (<em>Advisor: Dr. Geetha Gopalakrishnan.</em>)</li>
+                            <li>MSc (1996): University of Madras, India(<em>Advisor: Dr. A. Anandhan.</em>)</li>
+                            <li>BSc (1994): University of Madras, India</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p><strong>Professional Positions</strong></p>
+                <ul>
+                    <li style="list-style-type: none;">
+                        <ul>
+                            <li>March 2018- Present: Professor, Department of Chemistry, Indian Institute of Technology Kharagpur, India</li>
+                            <li>May 2013- Feb 2018: Associate Professor, Department of Chemistry, Indian Institute of Technology Kharagpur, India</li>
+                            <li>Jul 2007- May 2013: Assistant Professor, Department of Chemistry, Indian Institute of Technology Kharagpur, India</li>
+                            <li>Nov 2005-May 2007: Postdoctoral Fellow, University of Leeds, Leeds, UK May 2005- Oct 2005: Senior Scientist, FRLHT, Bangalore, India</li>
+                            <li>Jan 2002-Jan 2005: Postdoctoral Fellow, University of Cincinnati, Ohio, US</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p><strong>Awards and Honors</strong></p>
+                <ul>
+                    <li style="list-style-type: none;">
+                        <ul>
+                            <li>Bronze Medal, CRSI, India (July 2020)</li>
+                            <li>SERB Distinguished Investigator Award (SERB DIA Fellow)(2018)</li>
+                            <li>Member of the National Academy of Sciences (2018)</li>
+                            <li>Top Teaching Feedback Award (2015, 2017, and 2018)</li>
+                            <li>DST-RSC Indo-UK Scientific Seminar (2015)</li>
+                            <li>ACS 3-Year Membership Award (2014- 2016)</li>
+                            <li>Associate: Indian Academy of Sciences (2009)</li>
+                            <li> Indo-UK Science network Programme (RSC- 2009)</li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+            <div id="research">
+                <ul>
+                    <li style="list-style-type: none;">
+                        <ul>
+                        <li>Synthesis of new Fluorescent photoremovable protecting groups</li>
+                        <li>Synthesis and applications of Photoacid generators     </li>
+                        <li>Controlled release of Agrochemicals by Sunlight     </li>
+                        <li>Visible light Induced Generation of alkyl Triplet Nitrenes     </li>
+                        <li>Photoredox catalysis for functionalization of small organic molecules </li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+                
+            </div>
+            <div id="publication">
+
+                <ul>
+                    <li style="list-style-type: none;">
+                    <li>
+                        <p><strong> Singh, Pradeep. N. D.</strong> (Invited Lecture), Next Generation Photoremovable Protecting Groups, NOST XVIII Organic Chemistry Conference, IISER Bhopal,August 24-27, 2017.</p>
+                      </li>
+                    <li>
+                        <p><strong> Singh, Pradeep. N. D.</strong> (Invited Lecture), Organic nanoparticles as Photoresponsive drug delivery systems, Gordon Research Conference on Photochemistry, Stonehill College in Easton MA, United States 19-24th july 2015.</p>
+                      </li>
+                     <li>
+                        <p><strong> Singh, Pradeep. N. D.</strong> (Invited Lecture), Targeted Photoresponsive nano drug delivery systems, International Scientific seminar India-UK, Weetwood Hall and Conference Centre Hotel, Leeds, 16-18th February 2015.</p>
+                      </li>
+                      <li>
+                        <p><strong> Singh, Pradeep. N. D.</strong> (Invited Lecture), Fabrication of new photoresponsive nanocarriers for drug delivery, FICS 2014, IIT Guwhati, Dec 4-6th 2014.</p>
+                      </li>
+                         <li>
+                        <p><strong> Singh, Pradeep. N. D.</strong> (Invited Lecture), Single Component Photoresponsive Fluorescent Organic Nanoparticles: Drug delivery System8th Asian Photochemistry Conference (APC-2014), IISER Thiruvananthapuram, India Nov 10-13th 2014</p>
+                      </li>
+                          <li>
+                        <p><strong> Singh, Pradeep. N. D.; Klima, R. F.; Ault, B. S.; Gudmundsdottir, A. D.</strong> Photolytic Studies of a- Azido-Propiophenone Derivatives ACS National Meeting: Philadelphia, Pennsylvania, August, 2004 </p>
+                      </li>
+                        
+                        <li> 
+                          <p><strong>Singh, Pradeep. N. D.; Jagadis Sankaranarayanan.; Sarah Mandel.; Ault, B. S.; Gudmundsdottir, A. D.</strong> Photolytic studies of  a-azido prophiophenone-Direct detection of   triplet nitrenes. 3rd Ohio Photochemical Society Meeting, Ohio, May,   2004. </p>
+                        </li>
+                       
+                        <li> 
+                          <p><strong>Singh, Pradeep. N. D.; Ability V. Jadhav.; Gudmundsdottir, A. D.</strong> Beta vinyl Azides: Theoretical, Product and Matrix studies and Infrared   Isolation Spectroscopy Investigation. Ralph and Helen Oesper symposium,   Cincinnati, October, 2003. </p>
+                        </li>
+                        
+                        <li> 
+                          <p><strong>Singh, Pradeep . N. D.; Abhijit Jadhav.; Ault, B. S.; Gudmundsdottir, A. D.</strong> Photolytic studies of vinyl azides. 2nd Ohio Photochemical Society Meeting, Ohio, April, 2003. </p>
+                        </li>
+                        
+                        <li> 
+                          <p><strong>Singh, Pradeep . N. D.; Gudmundsdottir, A. D</strong>. Environmental Friendly Synthesis Of  2H-Azirines.Ralph and Helen Oesper symposium, Cincinnati, October, 2002. </p>
+                        </li>
+                      
+                        <li> 
+                          <p><strong>Singh, Pradeep . N. D.; Christman, R. M.; Ault, B. S.; Gudmundsdottir, A. D.</strong> Trapping of Triplet Alkyl Nitrenes using Molecular Oxygen.1st Ohio Photochemical Society Meeting, Ohio, April, 2002. </p>
+                        </li>
+                        </li>
+                    </ul>
+
+            </div>
+        </div>
+        
+    </main>
+    <script>
+        var bio=document.getElementById("bio");
+        var research=document.getElementById("research");
+        var publication=document.getElementById("publication");
+        var div2=document.getElementsByClassName("div2");
+        var div3=document.getElementsByClassName("div3");
+        var div4=document.getElementsByClassName("div4");
+
+        function showbio()
+        {
+            console.log(div2);
+            bio.style.display="block";
+            research.style.display="none";
+            publication.style.display="none";
+            div2[0].style.backgroundColor = "white";
+            div3[0].style.backgroundColor="#D3D3D3";
+            div4[0].style.backgroundColor="#D3D3D3";
+        }
+        function showresearch()
+        {
+            bio.style.display="none";
+            research.style.display="block";
+            publication.style.display="none";
+            div2[0].style.backgroundColor = "#D3D3D3";
+            div3[0].style.backgroundColor="white";
+            div4[0].style.backgroundColor="#D3D3D3";
+
+        }
+        function showpublication()
+        {
+            bio.style.display="none";
+            research.style.display="none";
+            publication.style.display="block";
+            div2[0].style.backgroundColor = "#D3D3D3";
+            div3[0].style.backgroundColor="#D3D3D3";
+            div4[0].style.backgroundColor="white";
+        }
+    </script>
+</body>
+</html>

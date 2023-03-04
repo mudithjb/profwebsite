@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styletemp.css" rel="stylesheet">
+    <style>
+        main{
+    width:75%;
+    margin:50px auto;
+    display: grid;
+    grid-template-rows: 38px repeat(1,1fr);
+    grid-template-columns: 277px repeat(3,1fr);
+}
+.div1{
+    grid-row:1/-1;
+    grid-column: 1/2;
+}
+.div5{
+    grid-row:2/-1;
+    grid-column: 2/-1;
+}
+    </style>
+    <title>Dr. NDPS</title>
+</head>
+<body>
+    <main>
+        <div class="div1">Prof NDPS image</div>
+        <div class="div2" onclick="showbio()">Biography</div>
+        <div class="div3" onclick="showresearch()">Research Interest</div>
+        <div class="div4" onclick="showpublication()">Publication</div>
+        <div class="div5">
+            <div id="bio">
+
+                <p><strong>Education</strong></p>
+                <ul>
+                    <li style="list-style-type: none;">
+                        <ul>
+                            <li>PhD (2006): University of Cologne, Germany (<em>Advisor: Prof. Albrecht Berkessel</em>)</li>
+                            <li>MSc (2002): Indian Institute of Technology, Kanpur, India (<em>Thesis Advisor: Prof. Parimal K. Bharadwaj</em>)</li>
+                            <li>BSc (2000): R. K. Mission Residential College, Narendrapur, India</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p><strong>Professional Positions</strong></p>
+                <ul>
+                    <li style="list-style-type: none;">
+                        <ul>
+                            <li>December 2021-current: Professor at the Department of Organic Chemistry, Indian Institute of Science, Bangalore, India</li>
+                            <li>December 2015 to December 2021: Associate Professor at the Department of Organic Chemistry, Indian Institute of Science, Bangalore, India</li>
+                            <li>April 2010 to December 2015: Assistant Professor at the Department of Organic Chemistry, Indian Institute of Science, Bangalore, India</li>
+                            <li>2008 to 2010: Postdoctoral Fellow at Harvard University, Cambridge, USA (<em>Advisor: Prof. E. J. Corey</em>)</li>
+                            <li>2006 to 2008: Postdoctoral Fellow at Max-Planck Institute fuer Kohlenforschung, Muelheim an der Ruhr, Germany (<em>Advisor: Prof. Benjamin List</em>)</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p><strong>Awards and Fellowships</strong></p>
+                <ul>
+                    <li style="list-style-type: none;">
+                        <ul>
+                            <li>Chemical Research Society of India (CRSI) Bronze Medal (2019)</li>
+                            <li>Associate Editor, <em>Organic &amp; Biomolecular Chemistry</em> (since 2019)</li>
+                            <li>Fellow of the Royal Society of Chemistry (FRSC) (2018)</li>
+                            <li>Member of the Editorial Advisory Board of the<em> Journal of Organic Chemistry</em> (2018-2020)</li>
+                            <li>Dr. Basudev Banerjee Memorial Award for the year 2015 by Indian Chemical Society (2016)</li>
+                            <li>Dr. Srinivasan Rajagopalan Award by IISc Alumni Association (2015)</li>
+                            <li>Prof. Priti Shankar Teaching Award for Assistant Professors in Science for the year 2014 (2015)</li>
+                            <li>Alkyl Amines-Institute of Chemical Technology (ICT) Young Scientist Award (2014)</li>
+                            <li>INSA (Indian National Science Academy) Medal for Young Scientist (2014)</li>
+                            <li>NASI (National Academy of Sciences, India)-Young Scientist Platinum Jubilee Award (2013)</li>
+                            <li>Associate of the Indian Academy of Sciences, Bangalore (2012-2015)</li>
+                            <li>Thieme Chemistry Journals Award (2011)</li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+            <div id="research">
+
+                <p>Our primary research interests revolve around various aspects of enantioselective catalysis, with particular emphasis on the development of new catalytic enantioselective transformations.
+                    In this process, we are also interested in developing new catalysis concepts.</p>
+                <p>Some of our research highlights are shown below:</p>
+                <p><strong>Catalytic Enantioselective Halocyclization Reactions:</strong></p>
+                <p><img class="alignnone  wp-image-1379" src="https://orgchem.iisc.ac.in/wp-content/uploads/2020/03/SM1_re-300x199.jpg" alt="" width="386" height="256" srcset="https://orgchem.iisc.ac.in/wp-content/uploads/2020/03/SM1_re-300x199.jpg 300w, https://orgchem.iisc.ac.in/wp-content/uploads/2020/03/SM1_re-768x510.jpg 768w, https://orgchem.iisc.ac.in/wp-content/uploads/2020/03/SM1_re.jpg 867w"
+                        sizes="(max-width: 386px) 100vw, 386px" /></p>
+                <p><strong>Catalytic Enantioselective Vinylogous Michael Reactions:</strong></p>
+                <p><img class="alignnone  wp-image-1363" src="https://orgchem.iisc.ac.in/wp-content/uploads/2017/05/SM2-300x201.jpg" alt="" width="387" height="259" srcset="https://orgchem.iisc.ac.in/wp-content/uploads/2017/05/SM2-300x201.jpg 300w, https://orgchem.iisc.ac.in/wp-content/uploads/2017/05/SM2-768x515.jpg 768w, https://orgchem.iisc.ac.in/wp-content/uploads/2017/05/SM2.jpg 864w"
+                        sizes="(max-width: 387px) 100vw, 387px" /></p>
+                <p><strong>Catalytic Enantioselective C–H Alkylation Reactions:</strong></p>
+                <p><img class="alignnone  wp-image-1364" src="https://orgchem.iisc.ac.in/wp-content/uploads/2017/05/SM3-300x110.jpg" alt="" width="387" height="142" srcset="https://orgchem.iisc.ac.in/wp-content/uploads/2017/05/SM3-300x110.jpg 300w, https://orgchem.iisc.ac.in/wp-content/uploads/2017/05/SM3-768x283.jpg 768w, https://orgchem.iisc.ac.in/wp-content/uploads/2017/05/SM3.jpg 864w"
+                        sizes="(max-width: 387px) 100vw, 387px" /></p>
+                <p><strong>Small Molecule Elimination as a Novel Strategy for Unusual C–C Bond Formation:</strong></p>
+                <p><img class="alignnone  wp-image-1365" src="https://orgchem.iisc.ac.in/wp-content/uploads/2017/05/SM4-300x120.jpg" alt="" width="383" height="153" srcset="https://orgchem.iisc.ac.in/wp-content/uploads/2017/05/SM4-300x120.jpg 300w, https://orgchem.iisc.ac.in/wp-content/uploads/2017/05/SM4-768x308.jpg 768w, https://orgchem.iisc.ac.in/wp-content/uploads/2017/05/SM4.jpg 865w"
+                        sizes="(max-width: 383px) 100vw, 383px" /></p>
+                <p><strong>Enantioselective Anion-Binding Catalysis:</strong></p>
+                <p><img class="alignnone  wp-image-1366" src="https://orgchem.iisc.ac.in/wp-content/uploads/2017/05/SM5-300x121.jpg" alt="" width="379" height="153" srcset="https://orgchem.iisc.ac.in/wp-content/uploads/2017/05/SM5-300x121.jpg 300w, https://orgchem.iisc.ac.in/wp-content/uploads/2017/05/SM5-768x309.jpg 768w, https://orgchem.iisc.ac.in/wp-content/uploads/2017/05/SM5.jpg 863w"
+                        sizes="(max-width: 379px) 100vw, 379px" /></p>
+                <p><strong>Iridum-Catalyzed Enantioselective Allylic Alkylation:</strong></p>
+                <p><img class="alignnone  wp-image-1367" src="https://orgchem.iisc.ac.in/wp-content/uploads/2017/05/SM6-300x100.jpg" alt="" width="375" height="125" srcset="https://orgchem.iisc.ac.in/wp-content/uploads/2017/05/SM6-300x100.jpg 300w, https://orgchem.iisc.ac.in/wp-content/uploads/2017/05/SM6-768x256.jpg 768w, https://orgchem.iisc.ac.in/wp-content/uploads/2017/05/SM6.jpg 869w"
+                        sizes="(max-width: 375px) 100vw, 375px" /></p>
+
+            </div>
+            <div id="publication">
+
+                <ul>
+                    <li>“<em>Enantioselective [4+2]-Annulation of Azlactones with Copper-Allenylidenes under Cooperative Catalysis: Synthesis of </em><em>α</em><em>-Quaternary </em><em>α</em><em>-Acylaminoamides</em>”
+                        Simlandy, B. Ghosh, S. Mukherjee, <em>Org. Lett. </em><strong>2019</strong>, <em>21</em>, 3361-3366.</li>
+                    <li>“<em>Iridium-Catalyzed Enantioselective Direct Vinylogous Allylic Alkylation of Coumarins</em>” Sarkar, S. Mitra, S. Mukherjee, <em>Chem. Sci.</em> <strong>2018</strong>, <em>9</em>,
+                        5767-5772.</li>
+                    <li>“<em>Picosecond Electron Transfer from Quantum Dots Enables a General and Efficient Aerobic Oxidation of Boronic Acids</em>” Simlandy, B. Bhattacharyya, A. Pandey, S. Mukherjee, <em>ACS Catal.</em>                                                                        <strong>2018</strong>, <em>8</em>, 5206-5211.</li>
+                    <li>“<em>Nitro-Enabled Catalytic Enantioselective Formal Umpolung Alkenylation of β-Ketoesters</em>” Ray Choudhury, M. S. Manna, S. Mukherjee, <em>Chem. Sci.</em> <strong>2017</strong>, <em>8</em>,
+                        6686-6690.</li>
+                    <li>“<em>Enantioselective Dearomatization of Isoquinolines by Anion-Binding Catalysis en Route to Cyclic </em><em>α</em><em>‑Aminophosphonates</em>” Ray Choudhury, S. Mukherjee, <em>Chem. Sci.</em>                                                                        <strong>2016</strong>, <em>7</em>, 6940-6945.</li>
+                    <li>“<em>Catalytic Enantioselective 1,4-Iodofunctionalizations of Conjugated Dienes</em>” Tripathi, S. Mukherjee, <em>Org. Lett.</em> <strong>2015</strong>, <em>17</em>, 4424-4427.</li>
+                    <li>“<em>Organocatalytic Enantioselective Formal C(sp<sup>2</sup>)-H Alkylation</em>” S. Manna, S. Mukherjee, <em>J. Am. Chem. Soc.</em> <strong>2015</strong>, <em>137</em>, 130-133.</li>
+                    <li><em>Remarkable Influence of Secondary Catalyst Site on Enantioselective Desymmetrization of Cyclopentenedione</em>” S. Manna, S. Mukherjee, <em>Chem. Sci.</em> <strong>2014</strong>,
+                        <em>5</em>, 1627-1633.</li>
+                    <li><em>“Synergistic Lewis Base and Anion-Binding Catalysis for the Enantioselective Vinylogous Addition of Deconjugated Butenolides to Allenoates</em>” V. Kumar, S. Mukherjee, <em>Chem. Commun.</em>                                                                        <strong>2013</strong>, <em>49</em>, 11203-11205.</li>
+                    <li>“<em style="font-size: inherit;">Catalytic Enantioselective Iodoetherification of Oximes</em><span style="font-size: inherit;">” Tripathi, S. Mukherjee, </span><em style="font-size: inherit;">Angew. Chem. Int. Ed.</em>                                                                        <strong style="font-size: inherit;">2013</strong><span style="font-size: inherit;">, </span><em style="font-size: inherit;">52</em><span style="font-size: inherit;">, 8450-8453.</span></li>
+                    <li>“<em style="font-size: inherit;">Catalytic Enantioselective Construction of Quaternary Stereocenters by Direct Vinylogous Michael Addition of Deconjugated Butenolides to Nitroolefins</em>
+                        <span
+                            style="font-size: inherit;">” S. Manna, V. Kumar, S. Mukherjee, </span><em style="font-size: inherit;">Chem. Commun.</em> <strong style="font-size: inherit;">2012</strong><span style="font-size: inherit;">, </span>
+                            <em
+                                style="font-size: inherit;">48</em><span style="font-size: inherit;">, 5193-5195.</span></li>
+                    <li>“<em style="font-size: inherit;">Lewis Base Catalysis by Thiourea: N-Bromosuccinimide-Mediated Oxidation of Alcohols</em><span style="font-size: inherit;">” B. Tripathi, S. Mukherjee, </span>
+                        <em
+                            style="font-size: inherit;">J. Org. Chem.</em> <strong style="font-size: inherit;">2012</strong><span style="font-size: inherit;">, </span><em style="font-size: inherit;">77</em><span style="font-size: inherit;">, 1592-1598.</span></li>
+                </ul>
+
+            </div>
+        </div>
+        
+    </main>
+    <script>
+        var bio=document.getElementById("bio");
+        var research=document.getElementById("research");
+        var publication=document.getElementById("publication");
+        function showbio()
+        {
+            console.log("hello");
+            bio.style.display="block";
+            research.style.display="none";
+            publication.style.display="none";
+        }
+        function showresearch()
+        {
+            bio.style.display="none";
+            research.style.display="block";
+            publication.style.display="none";
+        }
+        function showpublication()
+        {
+            bio.style.display="none";
+            research.style.display="none";
+            publication.style.display="block";
+        }
+    </script>
+</body>
+</html>
